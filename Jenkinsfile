@@ -17,7 +17,7 @@ pipeline{
                     if [ ! -d ~/jenkins-pipeline-example ]; then
                         mkdir ~/jenkins-pipeline-example
                         else
-                            echo "not built/already exists"
+                            echo "This file already exists"
                     fi
                 """
             }
